@@ -172,6 +172,11 @@ body{
     position: absolute;
     right:0;
     transform-style: preserve-3d;
+    transform-origin: left;
+}
+
+.book-page.page-right.turn{
+    transform:rotateY(-180deg);
 }
 
 .book-page .page-front,
@@ -228,3 +233,36 @@ body{
 .workeduc-content .year i{
     margin-right:.4rem;
 }
+
+.number-page{
+    position: absolute;
+    bottom: 1.2rem;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.nextprev-btn{
+    position: absolute;
+    bottom:.9rem;
+    right: 1.5rem;
+    width:2rem;
+    height:2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    color:var(--second-text-color);
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextprev-btn:hover{
+    color:var(--main-color);
+}
+
+.nextprev-btn.back{
+    left:1.5rem;
+}
+
+
+
+
