@@ -197,3 +197,34 @@ body{
     text-align: center;
     margin-bottom: 1rem;
 }
+
+.workeduc-box{
+    
+    border-left: var(--border);
+}
+
+
+.workeduc-box .workeduc-content {
+    position: relative;
+    padding-left: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+.workeduc-box .workeduc-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:-0.65rem;
+    width:1.2rem;
+    height:1.2rem;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+
+
+.workeduc-content .year{
+    color: var(--main-color);
+}
+
+.workeduc-content .year i{
+    margin-right:.4rem;
+}
