@@ -470,3 +470,125 @@ margin-bottom: 1rem;
   transform: translateX(-50%) scale(1);
   top:-1.8rem;
 }
+
+
+/* Existing styles omitted for brevity */  
+
+/* Responsive styles */  
+@media (max-width: 400px) {  
+    .wrapper {  
+        width: 90%; /* Reduce the width for smaller devices */  
+        height: auto; /* Allow height to grow naturally */  
+        padding: 1rem; /* Reduce padding */  
+    }  
+
+    .cover {  
+        width: 100%; /* Cover full width */  
+        height: auto; /* Adjust to content */  
+    }  
+
+    .book {  
+        perspective: 150rem; /* Adjust perspective for smaller screens */  
+    }  
+
+    .profile-page h1 {  
+        font-size: 2rem; /* Decrease font size */  
+    }  
+
+    .profile-page h3 {  
+        font-size: 1.2rem; /* Decrease font size */  
+    }  
+
+    .profile-page .social-media a {  
+        width: 2rem; /* Smaller size for social media icons */  
+        height: 2rem;  
+        font-size: 1rem; /* Adjust icon font size */  
+    }  
+
+    .btn {  
+        width: 7rem; /* Adjust button width */  
+        height: 2.5rem; /* Adjust button height */  
+    }  
+
+    .workeduc-box,  
+    .services-box,  
+    .skills-box,  
+    .portfolio-box {  
+        flex-direction: column; /* Stack elements vertically */  
+        width: 100%; /* Ensure boxes take full width */  
+    }  
+
+    .btn-box .btn:nth-child(2) {  
+        width: 7rem; /* Adjust on hover button as well */  
+    }  
+
+    .contact-box .field {  
+        padding: .5rem; /* Reduce padding */  
+        font-size: 0.9rem; /* Reduce font size */  
+    }  
+
+    .contact-box textarea {  
+        height: 10rem; /* Reduce height for smaller screens */  
+    }  
+
+    .nextprev-btn {  
+        font-size: 1.5rem; /* Smaller icons for navigation */  
+    }  
+
+    .portfolio-box .img-box {  
+        height: 10rem; /* Adjust the height of the portfolio images */  
+    }  
+
+    .portfolio-box .info-box .info-title h3 {  
+        font-size: 1rem; /* Adjust font size */  
+    }  
+
+    .number-page {  
+        font-size: 0.9rem; /* Adjust font size for page numbers */  
+    }  
+
+    .number-page,  
+    .nextprev-btn,  
+    .back-profile {  
+        bottom: 0; /* Adjust positioning for smaller screens */  
+    }  
+
+    .services-box {  
+        display: flex; /* Ensure services-box uses flexbox */  
+        flex-wrap: wrap; /* Allow items to wrap */  
+        gap: 1.5rem; /* Space between service items */  
+    }  
+    
+    .services-content {  
+        flex: 1 1 100%; /* Allow the service item to take full width */  
+        max-width: 100%; /* Prevent items from overflowing */  
+        box-sizing: border-box; /* Includes padding and borders in the element's total width and height */  
+        padding: .8rem .5rem 1.1rem; /* Giving padding for breathing space */  
+        border: var(--border); /* Use a border as defined */  
+        border-radius: .5rem; /* Slightly rounded corners */  
+        display: flex; /* Enable flexbox for content inside services-content */  
+        flex-direction: column; /* Stack internal elements vertically */  
+        justify-content: center; /* Center content vertically */  
+        text-align: center; /* Center text alignment */  
+    }  
+    
+    .services-content h3 {  
+        font-size: 1.3rem; /* Adjust heading size appropriately */  
+        margin-bottom: .5rem; /* Space below the heading */  
+    }  
+    
+    .services-content p {  
+        margin: 0; /* Remove default paragraph margins */  
+        font-size: 1rem; /* Adjust paragraph sizes to fit better */  
+    }  
+    
+    .services-content .btn {  
+        width: auto; /* Set width to auto for a more natural fit */  
+        margin-top: 0.5rem; /* Add a small margin above the button */  
+        padding: 0.5rem 1rem; /* Add padding for larger click area */  
+    }  
+    
+    .back-profile {  
+        right: 1rem; /* Adjust positioning */  
+    }  
+}  
